@@ -1,0 +1,17 @@
+{
+    "name": "mageguide/catalog-list-popup",
+    "description": "Magento2 Module allows users to see stock info and next restock dates from the Catalog pages",
+    "type": "magento2-module",
+    "require": {
+        "php": "~7.1|~7.2|~7.3|~7.4",
+        "magento/framework": "^100.0.0|^101.0.0|^102.0.0|^103.0.0|^104.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageGuide\\CatalogListPopup\\": "src/"
+        }
+    }
+}
